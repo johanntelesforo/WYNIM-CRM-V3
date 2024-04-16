@@ -24,7 +24,7 @@ const data = [
     StudentID: 'Federal Councillor',
     Course:'Industrial Engineering',
     departement:
-      'The Federal Department of the Environment, Transport, Energy and Communications (DETEC)',
+      'University of Alberta',
     status: 'pending',
   },
   {
@@ -52,8 +52,7 @@ const data = [
     name: 'Guy Parmelin',
     StudentID: 'Federal Councillor',
     Course:'Industrial Engineering',
-    departement:
-      'The Federal Department of Economic Affairs, Education and Research (EAER)',
+    departement: 'University of Waterloo',
     status: 'pending',
   },
   {
