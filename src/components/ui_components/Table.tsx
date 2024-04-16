@@ -13,48 +13,55 @@ import {
 const data = [
   {
     name: 'Viola Amherd',
-    Role: 'Federal Councillor',
+    StudentID: 'Federal Councillor',
+    Course:'Pharmacy',
     departement:
       'The Federal Department of Defence, Civil Protection and Sport (DDPS)',
-    status: 'active',
+    status: 'pending',
   },
   {
     name: 'Albert Rösti',
-    Role: 'Federal Councillor',
+    StudentID: 'Federal Councillor',
+    Course:'Industrial Engineering',
     departement:
       'The Federal Department of the Environment, Transport, Energy and Communications (DETEC)',
-    status: 'active',
+    status: 'pending',
   },
   {
     name: 'Beat Jans',
-    Role: 'Federal Councillor',
+    StudentID: 'Federal Councillor',
+    Course:'Computer Science',
     departement: 'The Federal Department of Justice and Police (FDJP)',
-    status: 'active',
+    status: 'pending',
   },
   {
     name: 'Ignazio Cassis',
-    Role: 'Federal Councillor',
+    StudentID: 'Federal Councillor',
+    Course:'Computer Science',
     departement: 'The Federal Department of Foreign Affairs (FDFA)',
-    status: 'active',
+    status: 'pending',
   },
   {
     name: 'Karin Keller-Sutter',
-    Role: 'Federal Councillor',
+    StudentID: 'Federal Councillor',
+    Course:'Architecture',
     departement: 'The Federal Department of Finance (FDF)',
-    status: 'active',
+    status: 'pending',
   },
   {
     name: 'Guy Parmelin',
-    Role: 'Federal Councillor',
+    StudentID: 'Federal Councillor',
+    Course:'Industrial Engineering',
     departement:
       'The Federal Department of Economic Affairs, Education and Research (EAER)',
-    status: 'active',
+    status: 'pending',
   },
   {
     name: 'Elisabeth Baume-Schneider',
-    Role: 'Federal Councillor',
+    StudentID: 'Federal Councillor',
+    Course:'Mechanical Engineering',
     departement: 'The Federal Department of Home Affairs (FDHA)',
-    status: 'active',
+    status: 'pending',
   },
 ];
 
@@ -71,6 +78,7 @@ export function DataTable() {
             <TableHeaderCell>Name</TableHeaderCell>
             <TableHeaderCell>Student ID</TableHeaderCell>
             <TableHeaderCell>Course</TableHeaderCell>
+            <TableHeaderCell>School</TableHeaderCell>
             <TableHeaderCell>Status</TableHeaderCell>
           </TableRow>
         </TableHead>
@@ -79,7 +87,10 @@ export function DataTable() {
             <TableRow key={item.name}>
               <TableCell>{item.name}</TableCell>
               <TableCell>
-                {item.Role}
+                {item.StudentID}
+              </TableCell>
+              <TableCell>
+                {item.Course}
               </TableCell>
               <TableCell>
                 {item.departement}
