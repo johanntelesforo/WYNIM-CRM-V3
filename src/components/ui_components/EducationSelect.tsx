@@ -7,7 +7,7 @@ import {
 export function EducationSelect() {
   return (
     <div className="mx-auto max-w-full">
-      <div className="mb-4 text-center text-md font-bold p-2">
+      <div className="mb-4 text-center text-xl font-bold p-2">
         Select Current Education
       </div>
       <Select>
