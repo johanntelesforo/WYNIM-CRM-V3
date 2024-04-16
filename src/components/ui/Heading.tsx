@@ -12,7 +12,7 @@ function Heading() {
           <h1 className='text-4xl font-bold'> Dashboard </h1>
           
           <div className='flex justify-between'>
-            <button className="btn btn-primary text-base-100" onClick={() => (document.getElementById('addStudentModal') as HTMLDialogElement)?.showModal()}> Add Student <UserRoundPlus /> </button>
+            <button className="btn btn-primary text-base-100" onClick={() => (document.getElementById('addStudentModal') as HTMLDialogElement).showModal()}> Add Student <UserRoundPlus /> </button>
               <dialog id="addStudentModal" className="modal">
                 <div className="modal-box w-11/12 max-w-5xl p-8">
                   <div className='justify-start mt-4 mb-6 gap-4'>
