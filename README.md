@@ -1,5 +1,6 @@
 # WYNIM Customer Relationship Management System
 
+CRM mixed with Educational Components
 Made with love from Johann Gabriel Sebastian B. Telesforo using DaisyUI and Tremor UI.
 
 ## How to install
