@@ -1,6 +1,8 @@
 import { Settings } from 'lucide-react';
 import { UserRoundCog } from 'lucide-react';
 import { LogOut } from 'lucide-react';
+import { Search } from 'lucide-react';
+import { LayoutDashboard } from 'lucide-react';
 
 function Navbar() {
   return (
@@ -15,26 +17,18 @@ function Navbar() {
             </div>
             <div className="navbar-start hidden lg:flex gap-4">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a> Dashboard </a></li>
+                    <li><a> Dashboard <LayoutDashboard /> </a></li>
                     <li>
                         <details>
                         <summary> Statuses </summary>
-                        <ul className="p-4">
+                        <ul className="p-2">
                             <li><a> Accepted </a></li>
                             <li><a> Rejected </a></li>
                             <li><a> Pending </a></li>
                         </ul>
                         </details>
                     </li>
-                    <li>
-                        <details>
-                        <summary> Search </summary>
-                        <ul className='p-4'>
-                            <li><a> Course Offered </a></li>
-                            <li><a> Universities </a></li>
-                        </ul>
-                        </details>
-                    </li>
+                    <li> <a> Programs and Schools <Search /> </a> </li>
                 </ul>
             </div>
             <div className="flex-none">
