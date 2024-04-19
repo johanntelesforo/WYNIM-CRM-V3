@@ -9,7 +9,7 @@ import ProgramsAndSchools from './components/pages/ProgramsAndSchools'
 function App() {
   return (
    <div>
-      <Dashboard />
+      <ProgramsAndSchools />
    </div>
   )
 }

@@ -5,7 +5,7 @@ function CourseInfo() {
   return (
     <div>
         <div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl" id="courseinfo">
             <figure><img src="src/assets/img/Coursera_Wesley_Megan_Miller_0242.png" alt="comscie" /></figure>
             <div className="card-body">
                 <h2 className="card-title">

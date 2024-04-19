@@ -5,7 +5,7 @@ function InfoCards() {
   return (
     <div>
         <div>
-            <div className="card w-96 bg-white shadow-xl">
+            <div className="card w-96 bg-white shadow-xl" id="schoolinfo">
                 <figure><img src="src/assets/img/University-of-toronto.jpg" alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title"> University of Toronto </h2>
