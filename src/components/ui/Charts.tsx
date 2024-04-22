@@ -28,7 +28,7 @@ function Charts() {
           <BarListGender />
         </Card>
       </div>
-      <div className="divider"></div>
+      <div className="divider divider-neutral"></div>
     </div>
   )
 }

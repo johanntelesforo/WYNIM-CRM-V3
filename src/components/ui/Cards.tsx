@@ -37,7 +37,6 @@ function Cards() {
           </div>
         </div>
       </div>
-      <div className='divider'></div>
     </div>
   )
 }
