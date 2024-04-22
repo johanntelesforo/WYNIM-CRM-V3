@@ -32,7 +32,7 @@ export default function DashboardLayout() {
                             </details>
                         </li>
                         <li className='mb-2'> <Link to={Routes.admin.programsandschools}> <Search /> Programs and Schools </Link> </li>
-                        <li className='mb-2'><Link to={Routes.admin.dashboard}> <UserPlus /> Add an Admin  </Link></li>
+                        <li className='mb-2'><Link to={Routes.admin.addanadmin}> <UserPlus /> Add an Admin  </Link></li>
                     </ul>
                 </div>
             </div>

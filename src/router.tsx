@@ -4,13 +4,15 @@ import Register from "./components/pages/Register";
 import Dashboard from "./components/pages/Dashboard";
 import DashboardLayout from "./components/pages/DashboardLayout";
 import ProgramsAndSchools from "./components/pages/ProgramsAndSchools";
+import AddAnAdmin from "./components/pages/AddAnAdmin";
 
 export const Routes = {
     login: "/",
     register: "/register",
     admin: {
         dashboard: "/admin",
-        programsandschools: "/admin/programsandschools"
+        programsandschools: "/admin/programsandschools",
+        addanadmin: '/admin/addanadmin'
     }
 }
 
@@ -34,6 +36,10 @@ const router = createBrowserRouter([
             {
                 path: "programsandschools",
                 element: <ProgramsAndSchools />
+            },
+            {
+                path: "addanadmin",
+                element: <AddAnAdmin />
             },
 
         ]
