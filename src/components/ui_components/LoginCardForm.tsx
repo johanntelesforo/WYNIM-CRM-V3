@@ -1,7 +1,15 @@
 import { TextInput } from '@tremor/react';
 import { Card } from '@tremor/react';
+import  { useNavigate } from 'react-router-dom';
 
 export function LoginCardForm() {
+
+  const history = useNavigate();
+
+  const handleLogin = () => {
+    history('/dashboard');
+  }
+
   return (
     <div> 
       <div className='flex items-center justify-center h-96 p-96 mt-12'>
@@ -29,11 +37,11 @@ export function LoginCardForm() {
               </div>
             </div>
             <div className="flex items-center justify-center mt-12 mb-2 w-full">
-              <button className="btn btn-wide btn-primary text-base">Login</button>
+              <button className="btn btn-wide btn-primary text-base" onClick={handleLogin}> Login</button>
             </div>
           </form>
           <div>
-            <p className="text-center text-sm mt-4">Don't have an account? <a href="/signup" className="text-blue-500">Sign up</a></p>
+            <p className="text-center text-sm mt-4">Don't have an account? <a href="/register" className="text-blue-500">Sign up</a></p>
           </div>
         </Card>
       </div>

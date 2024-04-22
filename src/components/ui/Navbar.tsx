@@ -17,7 +17,7 @@ function Navbar() {
             </div>
             <div className="navbar-start hidden lg:flex gap-4">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a> Dashboard <LayoutDashboard /> </a></li>
+                    <li><a href='/dashboard'> Dashboard <LayoutDashboard /> </a></li>
                     <li>
                         <details>
                         <summary> Statuses </summary>
@@ -28,7 +28,7 @@ function Navbar() {
                         </ul>
                         </details>
                     </li>
-                    <li> <a> Programs and Schools <Search /> </a> </li>
+                    <li> <a href='/programsandschools'> Programs and Schools <Search /> </a> </li>
                 </ul>
             </div>
             <div className="flex-none">
