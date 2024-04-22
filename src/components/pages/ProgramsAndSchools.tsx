@@ -14,12 +14,12 @@ function ProgramsAndSchools() {
         <div className="drawer lg:drawer-open">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col mx-4">
-            <Navbar />
-            <SearchFunction />
-            <div className='grid grid-cols-2 gap-4'>
-                <InfoCards />
-                <CourseInfo />
-            </div>
+          <Navbar />
+              <SearchFunction />
+              <div className='grid grid-cols-2 gap-4 mx-auto'>
+                  <InfoCards />
+                  <CourseInfo />
+              </div>
         </div> 
         <div className="drawer-side rounded-md">
           <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label> 
