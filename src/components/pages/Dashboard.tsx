@@ -3,9 +3,6 @@ import Heading from '../ui/Heading'
 import Cards from '../ui/Cards'
 import Charts from '../ui/Charts'
 import TableData from '../ui/TableData'
-import { Settings } from 'lucide-react';
-import { UserRoundCog } from 'lucide-react';
-import { LogOut } from 'lucide-react';
 import { Search } from 'lucide-react';
 import { LayoutDashboard } from 'lucide-react';
 import { TrendingUp } from 'lucide-react';

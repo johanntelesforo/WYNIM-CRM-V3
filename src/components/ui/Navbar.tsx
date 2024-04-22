@@ -1,8 +1,6 @@
 import { Settings } from 'lucide-react';
 import { UserRoundCog } from 'lucide-react';
 import { LogOut } from 'lucide-react';
-import { Search } from 'lucide-react';
-import { LayoutDashboard } from 'lucide-react';
 
 function Navbar() {
   return (
