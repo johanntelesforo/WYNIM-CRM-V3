@@ -21,7 +21,7 @@ function Navbar() {
             <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52 text-black">
                 <li><a> <UserRoundCog /> Profile</a> </li>
                 <li><a> < Settings /> Settings</a></li>
-                <li><a> <LogOut /> Logout</a></li>
+                <li><a href='/'> <LogOut /> Logout</a></li>
             </ul>
             </div>
         </div>
