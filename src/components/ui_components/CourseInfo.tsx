@@ -30,7 +30,9 @@ function CourseInfo() {
                                 <h2 className='font-bold'> Gross Tuition Fee : </h2>
                                 <p> $20,000 CAD / Year </p>
                             </div>
-                            <a className="btn btn-primary btn-wide mt-4 font-bold text-md" href=""> Create Application <FileCheck2 /> </a>
+                            <div className="flex justify-center">
+                                <a className="btn btn-primary btn-wide mt-4 font-bold text-md" href=""> Create Application <FileCheck2 /> </a>
+                            </div>
                         </div>
                     </div>
                 </div>
