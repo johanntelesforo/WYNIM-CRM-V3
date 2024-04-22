@@ -8,7 +8,7 @@ function Charts() {
   return (
     <div>
       <div className='mt-8'>
-        <Card className="w-full max-h-full bg-base-100 shadow-md p-8 my-6"
+        <Card className="w-full max-h-full bg-base-100 shadow-md p-12 my-6"
           decoration="top"
           decorationColor="indigo">
           <BarChartData />
@@ -16,13 +16,13 @@ function Charts() {
       </div>
 
       <div className="grid grid-cols-2 gap-6 justify-between items-stretch flex-col mx-auto">
-        <Card className="w-full max-h-full bg-base-100 shadow-md p-8 my-6"
+        <Card className="w-full max-h-full bg-base-100 shadow-md p-12 my-6"
           decoration="top"
           decorationColor="indigo">
           <DonutChartCourses />
         </Card>
 
-        <Card className="w-full max-h-full bg-base-100 shadow-md p-8 my-6"
+        <Card className="w-full max-h-full bg-base-100 shadow-md p-12 my-6"
           decoration="top"
           decorationColor="indigo">
           <BarListGender />
