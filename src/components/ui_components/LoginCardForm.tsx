@@ -7,12 +7,12 @@ export function LoginCardForm() {
   const history = useNavigate();
 
   const handleLogin = () => {
-    history('/dashboard');
+    history('/admin');
   }
 
   return (
     <div>
-      <div className='flex items-center justify-center h-96 p-96 mt-12 mx-72'>
+      <div className='flex items-center justify-center h-96 p-96 mt-12 mx-80'>
         <Card
           decoration="top"
           decorationColor="indigo"

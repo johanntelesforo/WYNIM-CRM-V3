@@ -6,7 +6,7 @@ function Heading() {
 
   return (
     <div>
-      <div className='flex justify-between items-center mx-auto mb-8'>
+      <div className='flex justify-between items-center mx-6 mb-8 '>
         <h1 className='text-4xl font-bold'> Dashboard </h1>
         <div className='flex justify-between'>
           <button className="btn btn-primary text-base-100" onClick={() => (document.getElementById('addStudentModal') as HTMLDialogElement).showModal()}> Add Student <UserRoundPlus /> </button>
