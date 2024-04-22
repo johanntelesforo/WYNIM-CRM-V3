@@ -45,7 +45,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li><a> < Settings /> Settings </a></li>
-                    <li><a> <LogOut /> Logout</a></li>
+                    <li><a href='/'> <LogOut /> Logout</a></li>
                 </ul>
                 </div>
             </div>
