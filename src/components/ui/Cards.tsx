@@ -2,7 +2,7 @@
 function Cards() {
   return (
     <div>
-        <div className='grid grid-cols-3 gap-12 justify-between items-center max-h-screen py-6 flex-col max-w-full'>
+        <div className='grid grid-cols-3 gap-8 justify-between items-center max-h-screen py-6 flex-col max-w-full'>
           <div>
               <div className="card w-full bg-base-100 shadow-md">
                   <div className="card-body">
