@@ -34,7 +34,8 @@ const router = createBrowserRouter([
             {
                 path: "programsandschools",
                 element: <ProgramsAndSchools />
-            }
+            },
+
         ]
     }
 ]);
