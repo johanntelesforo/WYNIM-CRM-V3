@@ -6,7 +6,6 @@ function InfoCards() {
         <div>
             <div>
                 <div className="card w-96 bg-white shadow-xl justify-center items-center text-center" id="schoolinfo">
-                    <figure><img src="src/assets/img/University-of-toronto.jpg" alt="" /></figure>
                     <div className="card-body">
                         <h2 className="card-title"> University of Toronto </h2>
                         <p> 27 King's College Cir, Toronto, ON M5S 1A1, Canada </p>

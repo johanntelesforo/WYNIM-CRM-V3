@@ -9,7 +9,7 @@ function ProgramsAndSchools() {
     <div>
       <Navbar />
       <SearchFunction />
-      <div className='grid grid-cols-4 gap-4'>
+      <div className='grid grid-cols-4 gap-12 mx-6'>
         <InfoCards />
         <CourseInfo />
       </div>

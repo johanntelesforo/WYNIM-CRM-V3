@@ -5,12 +5,12 @@ import { Routes } from "../../router";
 export default function DashboardLayout() {
     return (
         <div>
-            <div className="drawer lg:drawer-open">
+            <div className="drawer lg:drawer-open shadow-md">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                 <div className={`drawer-content flex flex-col mx-4`}>
                     <Outlet />
                 </div>
-                <div className="drawer-side rounded-md">
+                <div className="drawer-side rounded-md ">
                     <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-full min-h-full bg-base-200 text-base-content">
                         <a className="btn btn-ghost text-xl">
@@ -19,7 +19,7 @@ export default function DashboardLayout() {
                             </div>
                             WYNIM CRM System
                         </a>
-                        <div className='divider'></div>
+                        <div className='divider divider-neutral'></div>
                         <li className='mb-2'><Link to={Routes.admin.dashboard}> <LayoutDashboard /> Dashboard </Link></li>
                         <li className='mb-2'>
                             <details>

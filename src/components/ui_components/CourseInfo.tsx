@@ -6,7 +6,6 @@ function CourseInfo() {
         <div>
             <div>
                 <div className="card w-96 bg-base-100 shadow-xl" id="courseinfo">
-                    <figure><img src="/Coursera_Wesley_Megan_Miller_0242.png" alt="comscie" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">
                             Bachelor of Science in Computer Science
