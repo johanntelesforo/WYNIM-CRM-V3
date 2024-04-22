@@ -1,4 +1,3 @@
-import React from 'react'
 import RegisterCardForm from '../ui_components/RegisterCardForm'
 import Navbar from '../ui/Navbar'
 
