@@ -2,10 +2,6 @@ import Navbar from '../ui/Navbar'
 import SearchFunction from '../ui_components/SearchFunction'
 import InfoCards from '../ui_components/InfoCards'
 import CourseInfo from '../ui_components/CourseInfo';
-import { Search } from 'lucide-react';
-import { LayoutDashboard } from 'lucide-react';
-import { TrendingUp } from 'lucide-react';
-import { UserPlus } from 'lucide-react';
 
 
 function ProgramsAndSchools() {
