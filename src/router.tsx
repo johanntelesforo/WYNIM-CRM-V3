@@ -4,7 +4,7 @@ import Register from "./components/pages/Register";
 import Dashboard from "./components/pages/Dashboard";
 import DashboardLayout from "./components/pages/DashboardLayout";
 import ProgramsAndSchools from "./components/pages/ProgramsAndSchools";
-import AddAnAdmin from "./components/pages/AddAnAdmin";
+import AdminData from "./components/pages/AdminData";
 
 export const Routes = {
     login: "/",
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "addanadmin",
-                element: <AddAnAdmin />
+                element: <AdminData />
             },
 
         ]
