@@ -1,5 +1,4 @@
 import { UserRoundPlus } from 'lucide-react';
-import StudentForm from '../ui_components/StudentForm'
 import { X } from 'lucide-react';
 import RegisterCardForm from './RegisterCardForm';
 

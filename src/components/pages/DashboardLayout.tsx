@@ -1,4 +1,4 @@
-import { LayoutDashboard, Search, TrendingUp, UserPlus } from "lucide-react";
+import { LayoutDashboard, Search, TrendingUp } from "lucide-react";
 import { Link, Outlet } from "react-router-dom";
 import { Routes } from "../../router";
 import { ShieldEllipsis } from 'lucide-react';
