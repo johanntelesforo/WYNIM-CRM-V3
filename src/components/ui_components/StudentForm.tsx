@@ -26,6 +26,10 @@ function StudentForm() {
                     <TextInput placeholder='Type here..' type='text' id="lname" className='text-base p-2' />
                 </div>
                 <div className='mt-8'>
+                    <h2 className='text-base font-bold m-2'> Birthday </h2>
+                    <TextInput placeholder='MM/DD/YY' type='text' id="bday" className='text-base p-2' />
+                </div>
+                <div className='mt-8'>
                     <h2 className='text-base font-bold m-2'> Nationality </h2>
                     <TextInput placeholder='Type here..' type='text' id="nationality" className='text-base p-2' />
                 </div>
