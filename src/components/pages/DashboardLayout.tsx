@@ -1,6 +1,7 @@
 import { LayoutDashboard, Search, TrendingUp, UserPlus } from "lucide-react";
 import { Link, Outlet } from "react-router-dom";
 import { Routes } from "../../router";
+import { ShieldEllipsis } from 'lucide-react';
 
 export default function DashboardLayout() {
     return (
@@ -32,7 +33,7 @@ export default function DashboardLayout() {
                             </details>
                         </li>
                         <li className='mb-2'> <Link to={Routes.admin.programsandschools}> <Search /> Programs and Schools </Link> </li>
-                        <li className='mb-2'><Link to={Routes.admin.addanadmin}> <UserPlus /> Add an Admin  </Link></li>
+                        <li className='mb-2'><Link to={Routes.admin.addanadmin}> <ShieldEllipsis /> Admin Data </Link></li>
                     </ul>
                 </div>
             </div>
