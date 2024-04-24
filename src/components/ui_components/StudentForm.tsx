@@ -7,41 +7,41 @@ function StudentForm() {
     return (
         <div>
             <div className='justify-start mt-4 mb-6 gap-4'>
-                <h1 className='text-4xl font-bold text-center items-center'> Add Student </h1>
-                <p className='mt-4 text-center items-center'> Fill out the necessary student details </p>
+                <h1 className='text-4xl font-bold text-center items-center'> Add Applicant </h1>
+                <p className='mt-4 text-center items-center'> Fill out the necessary applicant details </p>
             </div>
             <form method="">
                 <div className="flex w-full gap-12 mb-8">
                     <div className="grid h-20 flex-grow">
-                        <h2 className='text-base font-bold m-2'> First Name </h2>
+                        <h2 className='text-base font-bold mb-2'> First Name </h2>
                         <TextInput placeholder='Type here..' type='text' id="fname" className='text-base p-2' />
                     </div>
                     <div className="grid h-20 flex-grow">
-                        <h2 className='text-base font-bold m-2'> Middle Name </h2>
+                        <h2 className='text-base font-bold mb-2'> Middle Name </h2>
                         <TextInput placeholder='Type here..' type='text' id="mname" className='text-base p-2' />
                     </div>
                 </div>
                 <div className='mt-8'>
-                    <h2 className='text-base font-bold m-2'> Last Name </h2>
+                    <h2 className='text-base font-bold mb-2'> Last Name </h2>
                     <TextInput placeholder='Type here..' type='text' id="lname" className='text-base p-2' />
                 </div>
                 <div className='mt-8'>
-                    <h2 className='text-base font-bold m-2'> Birthday </h2>
+                    <h2 className='text-base font-bold mb-2'> Birthday </h2>
                     <TextInput placeholder='MM/DD/YY' type='text' id="bday" className='text-base p-2' />
                 </div>
                 <div className='mt-8'>
-                    <h2 className='text-base font-bold m-2'> Nationality </h2>
+                    <h2 className='text-base font-bold mb-2'> Nationality </h2>
                     <TextInput placeholder='Type here..' type='text' id="nationality" className='text-base p-2' />
                 </div>
                 <div className='mt-8'>
                     <EducationSelect />
                 </div>
                 <div className='mt-8'>
-                    <h2 className='text-base font-bold m-2'> Email </h2>
+                    <h2 className='text-base font-bold mb-2'> Email </h2>
                     <TextInput placeholder='Type here..' type='email' id="email" className='text-base p-2' />
                 </div>
                 <div className='mt-8 mb-5' id='genderselect'>
-                    <h2 className='text-base font-bold m-2'> Select Gender </h2>
+                    <h2 className='text-base font-bold mb-2'> Select Gender </h2>
                     <div className='flex gap-12 mt-4 mb-6'>
                         <label className="label cursor-pointer gap-4">
                             <span className="label-text"> Female </span>
@@ -57,8 +57,8 @@ function StudentForm() {
                     <SchoolSelect />
                     <CourseSelect />
                 </div>
-                <div className='items-center justify-center mt-8 mb-5'>
-                    <h2 className='text-base font-bold m-6'> Upload Passport/Visa </h2>
+                <div className='mt-8 mb-5'>
+                    <h2 className='text-base font-bold mb-4'> Upload Passport/Visa </h2>
                     <input type="file" className="file-input file-input-bordered w-full max-w-full" />
                 </div>
                 <div className='mt-24 mb-2 flex justify-center'>

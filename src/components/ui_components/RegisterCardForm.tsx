@@ -33,7 +33,7 @@ function RegisterCardForm() {
             </div>
           </div>
           <div className="mt-12 mb-2 flex justify-center w-full">
-            <button className="btn btn-primary text-base btn-wide"> Save Admin </button>
+            <button className="btn btn-primary text-base btn-wide mb-6"> Save Admin </button>
           </div>
         </form>
       </div>
