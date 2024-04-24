@@ -1,11 +1,13 @@
 import { Button, Dialog, DialogPanel } from '@tremor/react';
-import React from 'react';
+import React, { ReactNode } from 'react';
 
-export function DeleteButtonDialogue() {
+export function DeleteDialog({ children }: { children: (params: { toggle: () => void }) => ReactNode }) {
     const [isOpen, setIsOpen] = React.useState(false);
+    const toggle = () => setIsOpen(!isOpen);
+
     return (
         <>
-            <Button className="mx-2" color='red' onClick={() => setIsOpen(true)}> Delete </Button>
+            {children({ toggle })}
             <Dialog open={isOpen} onClose={(val) => setIsOpen(val)} static={true}>
                 <DialogPanel>
                     <h3 className="text-lg font-semibold text-tremor-content-strong dark:text-dark-tremor-content-strong"> Permanently Delete Admin? </h3>

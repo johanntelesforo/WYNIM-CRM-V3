@@ -9,7 +9,7 @@ import {
     TableHeaderCell,
     TableRow,
 } from '@tremor/react';
-import { DeleteButtonDialogue } from '../ui_components/DeleteButton'
+import { DeleteDialog } from './DeleteDialog'
 
 const data = [
     {
@@ -86,8 +86,12 @@ export function AdminTable() {
                                 {item.departement}
                             </TableCell>
                             <TableCell className='flex'>
-                                <Button color="blue" ><Info /> Edit </Button>
-                                <DeleteButtonDialogue />
+                                <Button color="blue" > Edit </Button>
+                                <DeleteDialog>
+                                    {({ toggle }) => (
+                                        <Button className="mx-2" color='red' onClick={toggle}>Delete</Button>
+                                    )}
+                                </DeleteDialog>
                             </TableCell>
                         </TableRow>
                     ))}
