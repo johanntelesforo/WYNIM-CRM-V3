@@ -1,4 +1,3 @@
-import { Info } from 'lucide-react';
 import {
     Button,
     Card,
@@ -65,7 +64,7 @@ export function AdminTable() {
             className="w-full max-h-full bg-base-100 shadow-md p-12 my-6 mt-12"
             decoration="top"
             decorationColor="indigo">
-            <h3 className="text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">List of WYNIM CRM Admins</h3>
+            <h3 className="text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">WYNIM CRM Admins</h3>
             <Table className="mt-5">
                 <TableHead>
                     <TableRow>
