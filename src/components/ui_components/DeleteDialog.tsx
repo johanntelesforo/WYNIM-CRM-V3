@@ -11,7 +11,7 @@ export function DeleteDialog({ children }: { children: (params: { toggle: () => 
             <Dialog open={isOpen} onClose={(val) => setIsOpen(val)} static={true}>
                 <DialogPanel>
                     <h3 className="text-lg font-semibold text-tremor-content-strong dark:text-dark-tremor-content-strong"> Permanently Delete Admin? </h3>
-                    <p className="mt-2 leading-6 text-tremor-default text-tremor-content dark:text-dark-tremor-content">
+                    <p className="mt-2 leading-6 text-tremor-primary text-tremor-content dark:text-dark-tremor-content">
                         Warning! Deleting will permanently remove this user from the database and will be unable to use nor access the WYNIM CRM System
                     </p>
                     <div className="flex justify-end mt-8 space-x-4">
