@@ -1,7 +1,7 @@
 import { Button, Dialog, DialogPanel } from '@tremor/react';
 import React, { ReactNode } from 'react';
 
-export function DeleteDialog({ children }: { children: (params: { toggle: () => void }) => ReactNode }) {
+export function DeleteAdminDialog({ children }: { children: (params: { toggle: () => void }) => ReactNode }) {
     const [isOpen, setIsOpen] = React.useState(false);
     const toggle = () => setIsOpen(!isOpen);
 

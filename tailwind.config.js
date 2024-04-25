@@ -6,7 +6,9 @@ module.exports = withMT({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/@tremor/**/*.{js,ts,jsx,tsx}"
+    "./node_modules/@tremor/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@tremor/react/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@tremor/react/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     transparent: 'transparent',
@@ -22,6 +24,7 @@ module.exports = withMT({
             DEFAULT: colors.blue[500],
             emphasis: colors.blue[700],
             inverted: colors.white,
+            danger: colors.red[500],
           },
           background: {
             muted: colors.gray[50],

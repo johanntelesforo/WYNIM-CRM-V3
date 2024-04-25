@@ -8,7 +8,8 @@ import {
     TableHeaderCell,
     TableRow,
 } from '@tremor/react';
-import { DeleteDialog } from './DeleteDialog'
+import { DeleteAdminDialog } from './DeleteAdminDialog'
+import { EditAdminDialog } from './EditAdminDialog'
 
 const data = [
     {
@@ -85,12 +86,16 @@ export function AdminTable() {
                                 {item.departement}
                             </TableCell>
                             <TableCell className='flex'>
-                                <Button color="blue" > Edit </Button>
-                                <DeleteDialog>
+                                <EditAdminDialog>
                                     {({ toggle }) => (
-                                        <Button className="mx-2" color='red' onClick={toggle}>Delete</Button>
+                                        <Button className="mx-2" color='blue' onClick={toggle}> Edit </Button>
                                     )}
-                                </DeleteDialog>
+                                </EditAdminDialog>
+                                <DeleteAdminDialog>
+                                    {({ toggle }) => (
+                                        <Button className="mx-2" color='red' onClick={toggle}> Delete </Button>
+                                    )}
+                                </DeleteAdminDialog>
                             </TableCell>
                         </TableRow>
                     ))}
