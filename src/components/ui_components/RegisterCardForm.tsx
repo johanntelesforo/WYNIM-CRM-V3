@@ -24,12 +24,16 @@ function RegisterCardForm() {
               <TextInput placeholder='Email' type='email' className='text-base p-2' id='email' />
             </div>
             <div>
+              <h2 className='text-base my-2 font-bold'> Username </h2>
+              <TextInput placeholder='Type here...' type='text' className='text-base p-2' id='username' />
+            </div>
+            <div>
               <h2 className='text-base my-2 font-bold'> Password </h2>
               <TextInput placeholder='Superawesomepassword' type="password" className='text-base p-2' id='password' />
             </div>
             <div>
               <h2 className='text-base my-2 font-bold'> Confirm Password </h2>
-              <TextInput placeholder='Superawesomepassword' type="password" className='text-base p-2' id='password' />
+              <TextInput placeholder='Superawesomepassword' type="password" className='text-base p-2' id='confpassword' />
             </div>
           </div>
           <div className="mt-12 mb-2 flex justify-center w-full">
