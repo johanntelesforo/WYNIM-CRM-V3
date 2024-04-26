@@ -6,7 +6,7 @@ function AddAnAdmin() {
     return (
         <div>
             <div>
-                <div className='flex justify-between items-center mx-6 mb-8 '>
+                <div className='flex justify-between mx-6 mb-4 '>
                     <h1 className='text-4xl font-bold'> Admin Data </h1>
                     <div className='flex justify-between'>
                         <button className="btn btn-primary text-base-100" onClick={() => (document.getElementById('addAdminModal') as HTMLDialogElement).showModal()}> Register an Admin <UserRoundPlus /> </button>

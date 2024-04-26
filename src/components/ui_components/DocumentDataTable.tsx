@@ -59,7 +59,7 @@ const dataDocu = [
 export function DocumentData() {
     return (
         <Card
-            className="w-full max-h-full bg-base-100 shadow-md p-12 my-6 mt-12"
+            className="w-full max-h-full bg-base-100 shadow-md p-12 mb-6 mt-8"
             decoration="top"
             decorationColor="indigo">
             <h3 className="text-tremor-content-strong dark:text-dark-tremor-content-strong font-bold"> Documents </h3>
