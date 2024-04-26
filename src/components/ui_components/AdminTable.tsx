@@ -32,31 +32,7 @@ const data = [
         email: 'The Federal Department of Justice and Police (FDJP)',
         status: 'active',
     },
-    {
-        adminID: 'Ignazio Cassis',
-        adminName: 'Federal Councillor',
-        email: 'The Federal Department of Foreign Affairs (FDFA)',
-        status: 'active',
-    },
-    {
-        adminID: 'Karin Keller-Sutter',
-        adminName: 'Federal Councillor',
-        email: 'The Federal Department of Finance (FDF)',
-        status: 'active',
-    },
-    {
-        adminID: 'Guy Parmelin',
-        adminName: 'Federal Councillor',
-        email:
-            'The Federal Department of Economic Affairs, Education and Research (EAER)',
-        status: 'active',
-    },
-    {
-        adminID: 'Elisabeth Baume-Schneider',
-        adminName: 'Federal Councillor',
-        email: 'The Federal Department of Home Affairs (FDHA)',
-        status: 'active',
-    },
+
 ];
 
 export function AdminTable() {

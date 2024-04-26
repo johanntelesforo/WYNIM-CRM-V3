@@ -16,7 +16,7 @@ const dataDocu = [
         fullname: 'Viola Amherd',
         resume: 'Federal Councillor',
         tor:
-            'The Federal Department of Defence, Civil Protection and Sport (DDPS)',
+            'active',
         diploma: 'active',
         passport: 'active',
         eptr: 'active',
@@ -26,7 +26,7 @@ const dataDocu = [
         fullname: 'Albert Rösti',
         resume: 'Federal Councillor',
         tor:
-            'The Federal Department of the Environment, Transport, Energy and Communications (DETEC)',
+            'active',
         diploma: 'active',
         passport: 'active',
         eptr: 'active',
@@ -35,7 +35,7 @@ const dataDocu = [
     {
         fullname: 'Beat Jans',
         resume: 'Federal Councillor',
-        tor: 'The Federal Department of Justice and Police (FDJP)',
+        tor: 'active',
         diploma: 'active',
         passport: 'active',
         eptr: 'active',
@@ -44,35 +44,7 @@ const dataDocu = [
     {
         fullname: 'Ignazio Cassis',
         resume: 'Federal Councillor',
-        tor: 'The Federal Department of Foreign Affairs (FDFA)',
-        diploma: 'active',
-        passport: 'active',
-        eptr: 'active',
-        safr: 'active',
-    },
-    {
-        fullname: 'Karin Keller-Sutter',
-        resume: 'Federal Councillor',
-        tor: 'The Federal Department of Finance (FDF)',
-        diploma: 'active',
-        passport: 'active',
-        eptr: 'active',
-        safr: 'active',
-    },
-    {
-        fullname: 'Guy Parmelin',
-        resume: 'Federal Councillor',
-        tor:
-            'The Federal Department of Economic Affairs, Education and Research (EAER)',
-        diploma: 'active',
-        passport: 'active',
-        eptr: 'active',
-        safr: 'active',
-    },
-    {
-        fullname: 'Elisabeth Baume-Schneider',
-        resume: 'Federal Councillor',
-        tor: 'The Federal Department of Home Affairs (FDHA)',
+        tor: 'active',
         diploma: 'active',
         passport: 'active',
         eptr: 'active',
