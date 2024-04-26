@@ -23,32 +23,26 @@ export function EditData({ children }: { children: (params: { toggle: () => void
                     <div className='my-4'>
                         <h2 className='text-base font-bold mb-2'> Resume </h2>
                         <input type="file" className="file-input file-input-bordered w-full max-w-full" />
-                        <span>Filename should be Lastname_Resume </span>
                     </div>
                     <div className='my-4'>
                         <h2 className='text-base font-bold mb-2'> Transcript of Records </h2>
                         <input type="file" className="file-input file-input-bordered w-full max-w-full" />
-                        <span>Filename should be Lastname_Passport/Visa </span>
                     </div>
                     <div className='my-4'>
                         <h2 className='text-base font-bold mb-2'> Diploma </h2>
                         <input type="file" className="file-input file-input-bordered w-full max-w-full" />
-                        <span>Filename should be Lastname_Diploma </span>
                     </div>
                     <div className='my-4'>
                         <h2 className='text-base font-bold mb-2'> Passport </h2>
                         <input type="file" className="file-input file-input-bordered w-full max-w-full" />
-                        <span>Filename should be Lastname_Passport </span>
                     </div>
                     <div className='my-4'>
                         <h2 className='text-base font-bold mb-2'> English Proficiency Test Result </h2>
                         <input type="file" className="file-input file-input-bordered w-full max-w-full" />
-                        <span>Filename should be Lastname_EnglishProficiencyTestResult </span>
                     </div>
                     <div className='my-4'>
                         <h2 className='text-base font-bold mb-2'> School Application Fee Receipt </h2>
                         <input type="file" className="file-input file-input-bordered w-full max-w-full" />
-                        <span>Filename should be Lastname_SchoolApplicationFeeReceipt </span>
                     </div>
                     <div className="flex justify-end mt-8 space-x-4">
                         <Button onClick={() => setIsOpen(false)}>
