@@ -14,6 +14,7 @@ import { EditData } from './EditData';
 const dataDocu = [
     {
         fullname: 'Viola Amherd',
+        email: 'email@gmail.com',
         resume: 'Federal Councillor',
         tor:
             'active',
@@ -24,6 +25,7 @@ const dataDocu = [
     },
     {
         fullname: 'Albert Rösti',
+        email: 'email@gmail.com',
         resume: 'Federal Councillor',
         tor:
             'active',
@@ -34,6 +36,7 @@ const dataDocu = [
     },
     {
         fullname: 'Beat Jans',
+        email: 'email@gmail.com',
         resume: 'Federal Councillor',
         tor: 'active',
         diploma: 'active',
@@ -43,6 +46,7 @@ const dataDocu = [
     },
     {
         fullname: 'Ignazio Cassis',
+        email: 'email@gmail.com',
         resume: 'Federal Councillor',
         tor: 'active',
         diploma: 'active',
@@ -63,6 +67,7 @@ export function DocumentData() {
                 <TableHead>
                     <TableRow>
                         <TableHeaderCell>Name</TableHeaderCell>
+                        <TableHeaderCell>Email</TableHeaderCell>
                         <TableHeaderCell>Resume </TableHeaderCell>
                         <TableHeaderCell>Transcript of Records</TableHeaderCell>
                         <TableHeaderCell>Diploma</TableHeaderCell>
@@ -76,6 +81,9 @@ export function DocumentData() {
                     {dataDocu.map((item) => (
                         <TableRow key={item.fullname}>
                             <TableCell>{item.fullname}</TableCell>
+                            <TableCell>
+                                {item.email}
+                            </TableCell>
                             <TableCell>
                                 {item.resume}
                             </TableCell>

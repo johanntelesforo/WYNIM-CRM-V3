@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 function DocumentsInsert() {
     const [fullName, setFullName] = useState('');
+    const [email, setEmail] = useState('');
     // ... add more states for each file input
 
     const handleSubmit = (event: { preventDefault: () => void; }) => {
@@ -24,6 +25,17 @@ function DocumentsInsert() {
                         className='text-base p-2'
                         value={fullName}
                         onChange={(e) => setFullName(e.target.value)}
+                    />
+                </div>
+                <div className="my-4">
+                    <h2 className='text-base font-bold mb-2'> Email </h2>
+                    <TextInput
+                        placeholder='Type here..'
+                        type='email'
+                        id="email"
+                        className='text-base p-2'
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                     />
                 </div>
                 <div className='my-4'>
