@@ -5,6 +5,7 @@ import Dashboard from "./components/pages/Dashboard";
 import DashboardLayout from "./components/pages/DashboardLayout";
 import ProgramsAndSchools from "./components/pages/ProgramsAndSchools";
 import AdminData from "./components/pages/AdminData";
+import CollectionOfDocuments from "./components/pages/CollectionOfDocuments";
 
 export const Routes = {
     login: "/",
@@ -12,7 +13,8 @@ export const Routes = {
     admin: {
         dashboard: "/admin",
         programsandschools: "/admin/programsandschools",
-        addanadmin: '/admin/addanadmin'
+        addanadmin: '/admin/addanadmin',
+        collectionofdocuments: '/admin/collectionofdocuments'
     }
 }
 
@@ -41,7 +43,10 @@ const router = createBrowserRouter([
                 path: "addanadmin",
                 element: <AdminData />
             },
-
+            {
+                path: "collectionofdocuments",
+                element: <CollectionOfDocuments />
+            },
         ]
     }
 ]);

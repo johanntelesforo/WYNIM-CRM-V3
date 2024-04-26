@@ -57,10 +57,6 @@ function StudentForm() {
                     <SchoolSelect />
                     <CourseSelect />
                 </div>
-                <div className='mt-8 mb-5'>
-                    <h2 className='text-base font-bold mb-4'> Upload Passport/Visa </h2>
-                    <input type="file" className="file-input file-input-bordered w-full max-w-full" />
-                </div>
                 <div className='mt-24 mb-2 flex justify-center'>
                     <button className="btn btn-wide btn-primary text-base"> Save information </button>
                 </div>

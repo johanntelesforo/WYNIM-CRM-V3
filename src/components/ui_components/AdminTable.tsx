@@ -15,46 +15,46 @@ const data = [
     {
         adminID: 'Viola Amherd',
         adminName: 'Federal Councillor',
-        departement:
+        email:
             'The Federal Department of Defence, Civil Protection and Sport (DDPS)',
         status: 'active',
     },
     {
         adminID: 'Albert Rösti',
         adminName: 'Federal Councillor',
-        departement:
+        email:
             'The Federal Department of the Environment, Transport, Energy and Communications (DETEC)',
         status: 'active',
     },
     {
         adminID: 'Beat Jans',
         adminName: 'Federal Councillor',
-        departement: 'The Federal Department of Justice and Police (FDJP)',
+        email: 'The Federal Department of Justice and Police (FDJP)',
         status: 'active',
     },
     {
         adminID: 'Ignazio Cassis',
         adminName: 'Federal Councillor',
-        departement: 'The Federal Department of Foreign Affairs (FDFA)',
+        email: 'The Federal Department of Foreign Affairs (FDFA)',
         status: 'active',
     },
     {
         adminID: 'Karin Keller-Sutter',
         adminName: 'Federal Councillor',
-        departement: 'The Federal Department of Finance (FDF)',
+        email: 'The Federal Department of Finance (FDF)',
         status: 'active',
     },
     {
         adminID: 'Guy Parmelin',
         adminName: 'Federal Councillor',
-        departement:
+        email:
             'The Federal Department of Economic Affairs, Education and Research (EAER)',
         status: 'active',
     },
     {
         adminID: 'Elisabeth Baume-Schneider',
         adminName: 'Federal Councillor',
-        departement: 'The Federal Department of Home Affairs (FDHA)',
+        email: 'The Federal Department of Home Affairs (FDHA)',
         status: 'active',
     },
 ];
@@ -69,10 +69,10 @@ export function AdminTable() {
             <Table className="mt-5">
                 <TableHead>
                     <TableRow>
-                        <TableHeaderCell>Name</TableHeaderCell>
-                        <TableHeaderCell>Position</TableHeaderCell>
-                        <TableHeaderCell>Department</TableHeaderCell>
-                        <TableHeaderCell>Actions</TableHeaderCell>
+                        <TableHeaderCell>Admin ID </TableHeaderCell>
+                        <TableHeaderCell>Admin Name </TableHeaderCell>
+                        <TableHeaderCell>Email </TableHeaderCell>
+                        <TableHeaderCell>Actions </TableHeaderCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -83,7 +83,7 @@ export function AdminTable() {
                                 {item.adminName}
                             </TableCell>
                             <TableCell>
-                                {item.departement}
+                                {item.email}
                             </TableCell>
                             <TableCell className='flex'>
                                 <EditAdminDialog>
