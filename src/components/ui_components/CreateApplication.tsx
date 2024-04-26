@@ -6,7 +6,7 @@ function CreateApplication() {
     return (
         <div>
             <div>
-                <div className='flex justify-between items-center mx-6 mb-8 '>
+                <div className='flex justify-between items-center ml-6 mb-8 '>
                     <div className='flex justify-between items-center'>
                         <button className="btn btn-primary text-base-100" onClick={() => (document.getElementById('createApplication') as HTMLDialogElement).showModal()}> Create Application <ClipboardPlus /> </button>
                         <dialog id="createApplication" className="modal">
