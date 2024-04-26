@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 function DocumentsInsert() {
     const [fullName, setFullName] = useState('');
-    const [resume, setResume] = useState(null);
     // ... add more states for each file input
 
     const handleSubmit = (event: { preventDefault: () => void; }) => {
